@@ -169,7 +169,7 @@ namespace MatrixSpace {
 
         SquareMat result(*this);
 
-        for (size_t i = 1; i < power; ++i) {
+        for (int i = 1; i < power; ++i) {
             result = result * SquareMat(*this);
         }
 
