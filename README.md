@@ -18,7 +18,7 @@ The implementation covers a wide range of matrix operations without using the ST
 
 | File             | Description |
 |------------------|-------------|
-| `SquareMat.hpp/cpp` | Implements the `SquareMat` class with dynamic memory, operator overloading, and helper functions. |
+| `SquareMat.hpp/cpp` | Implements the `SquareMat` class with dynamic memory, operator overloading and helper functions. |
 | `main.cpp`           | Demonstrates the use of all the matrix features and overloaded operators. |
 | `test.cpp`           | Contains automated unit tests using the `doctest` framework. |
 | `doctest.h`          | Header-only C++ testing framework. |
